@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+<html>
 
-You can use the [editor on GitHub](https://github.com/mkriscodes/Projects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <link href="Personal Portfolio style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+</style>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li>
+            <a href="#welcome-section">About Me</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact Me</a>
+        </li>
+    </ul>
+</nav>
 
-```markdown
-Syntax highlighted code block
+<section id="welcome-section" class="welcome-section">
+    <h1>Hi, I'm Mary Williams</h1>
+    <p>A Front-End Web Developer</p>
+    <br>
+    <p>I am a self-taught front-end developer. My skills include HTML, CSS3, and Javascript. I am passionate about building accessible and user friendly websites. I am constantly learning and studying to improve my skills as well as working on becoming a
+        full stack developer.</p>
+</section>
 
-# Header 1
-## Header 2
-### Header 3
+<section id="projects" class="projects-section">
+    <h2 class="projects-section-header">View My Projects</h2>
 
-- Bulleted
-- List
+    <div class="project-tile">
+        <a href="file:///Users/marywilliams/Desktop/HTML/Tribute%20Page.html" target="_blank" class="project-tile">
+            <img class="project-image" src="file:///Users/marywilliams/Desktop/Screen%20Shot%202022-01-02%20at%2011.53.37%20AM.png" alt="Tribute image">
+            <p class="project-title">Tribute Page</p>
+        </a>
 
-1. Numbered
-2. List
+        <a href="file:///Users/marywilliams/Desktop/HTML/%20Survey%20Form.html" target="_blank" class="project-tile">
+            <img class="project-image" src="file:///Users/marywilliams/Desktop/Screen%20Shot%202022-01-02%20at%2012.00.10%20PM.png" alt="Survey Form image">
+            <p class="project-title">Survey Form</p>
+        </a>
 
-**Bold** and _Italic_ and `Code` text
+        <a href="file:///Users/marywilliams/Desktop/HTML/Product%20Landing%20Page.html" target="_blank" class="project-tile">
+            <img class="project-image" src="file:///Users/marywilliams/Desktop/Screen%20Shot%202022-01-02%20at%201.03.56%20PM.png" alt="Product Landing Page">
+            <p class="project-title">Product Landing Page</p>
+        </a>
 
-[Link](url) and ![Image](src)
-```
+        <a href="file:///Users/marywilliams/Desktop/HTML/%20Technical%20Documentation%20Page.html" target="_blank" class="project-tile">
+            <img class="project-image" src="file:///Users/marywilliams/Desktop/Screen%20Shot%202022-01-02%20at%201.31.13%20PM.png" alt="Technical Documentation Page">
+            <p class="project-title">Technical Documentation Page</p>
+        </a>
+    </div>
+</section>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<section id="contact" class="contact-section">
+    <div class="contact-section-header">
+        <h2>Contact Me</h2>
+    </div>
 
-### Jekyll Themes
+    <div class="contact-links">
+        <a id="profile-link" href="https://github.com/mkriscodes" target="_blank" class="btn contact-details">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mkriscodes/Projects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
